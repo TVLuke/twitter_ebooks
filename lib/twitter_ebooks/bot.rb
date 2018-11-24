@@ -522,7 +522,7 @@ module Ebooks
     # @param text [String]
     def tweet(text, *args)
       log "Tweeting '#{text}'"
-      twitter.update(text, *args)
+      #twitter.update(text, *args)
     end
 
     # Get a scheduler for this bot
